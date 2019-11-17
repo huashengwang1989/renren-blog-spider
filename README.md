@@ -1,5 +1,9 @@
 # renren-blog-spider
 
+## UPDATE
+
+This script seems just survived for a few days. Now Renren will redirect to http://dnactivity.renren.com/, and the 3g.renren.com used no longer works.
+
 A spider to get your renren blog articles down from its mobile site.
 
 从人人网爬自己的日志内容
