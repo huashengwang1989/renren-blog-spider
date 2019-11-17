@@ -4,7 +4,11 @@ A spider to get your renren blog articles down from its mobile site.
 
 从人人网爬自己的日志内容
 
-## Preparation
+This is based on the current layout of 3g.renren.com. If Renren has any other subsequent update, this script may not work.
+
+该脚本基于目前人人网移动站 3g.renren.com。如果人人网对此有任何更新，该脚本可能会无法工作。
+
+## Preparation 准备
 
 Please make sure that `Python 3` has been setup in your system. Then install the following modules:
 
@@ -18,7 +22,7 @@ PS: You may need use `pip3` instead of `pip` in some cases.
 
 注：你可能需要将`pip`替换为`pip3`。
 
-## Update Config
+## Update Config 更改 Config 文件
 
 Clone this project to your local folder. `cd` to this folder for the `config.json`:
 
@@ -71,7 +75,7 @@ For other configurations, your may leave them as they are or edit at your discre
 
 程序会自动在同一个文件夹生成该文件名的 txt 文件。（如果已存在相同文件不会被覆盖，新生成的文件会自动重命名。）
 
-## Run the script
+## Run the script 跑起来
 
 `cd` to the folder containing the script, then:
 
@@ -79,14 +83,20 @@ For other configurations, your may leave them as they are or edit at your discre
 python ./spider.py
 ```
 
-## Limitations
+## Limitations 限制
 
 1. If any error occurs, e.g. a network error, this script would stop (you may find where it stops from the console output);
 
+如果脚本跑的时候碰到任何错误，它会停止（你可以从终端的日志中知道它在什么时候停止了。）
+
 2. For the article contents, images would remain as the `img` tag. This script would NOT download the images.
 
-## Questions
+该脚本仅下载文章的文本内容。其不会下载文章中的图片。
 
-### Why need I fill in cookies instead of the login credentials?
+## Questions 问题
+
+### Why need I fill in cookies instead of the login credentials? 为何需要填写 Cookie 而非直接填写用户名和密码？
 
 Login credentials would also work initially, but it would soon trigger Renren's robot detection and need fill in verification code. This is difficult to bypass.
+
+用户名和密码一开始也可以工作，但不久就会触发人人网验证机制。这个很难绕过。
