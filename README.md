@@ -4,6 +4,10 @@
 
 This script seems just survived for a few days. Now Renren will redirect to http://dnactivity.renren.com/, and the 3g.renren.com used no longer works.
 
+万年不变的人人网变了。现在 3g.renren.com 会自动跳转了。目前人人网日志处于看不到的状态（桌面版 404 中）。该脚本没活过一周。
+
+-----------------------------------
+
 A spider to get your renren blog articles down from its mobile site.
 
 从人人网爬自己的日志内容
